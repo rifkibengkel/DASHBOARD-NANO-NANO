@@ -1,0 +1,51 @@
+.formContainer {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgb(255 255 255 / 10%);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 30px;
+}
+
+.mainBtn {
+    position: relative;
+    background-color: #1C1B49;
+    border: 2px solid #cc9d4c;
+    margin: 10px auto;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 160px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    height: 45px;
+}
+
+.mainBtn:hover {
+    color: black;
+}
+
+.container {
+    height: 100vh;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    /* background-image: url(/img/confetti@2x@2x.png); */
+    background-size: cover;
+    background: radial-gradient(circle, rgb(255, 181, 181) 0%, rgb(241, 89, 89) 60%);
+    background-position: 0px 10px;
+}
+
+.container:before {
+    height: 100vh;
+    text-align: center;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-image: url(/img/confetti@2x@2x.png); */
+    background-size: cover;
+    z-index: 0;
+}
